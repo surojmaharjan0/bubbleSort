@@ -1,3 +1,8 @@
+        /*
+        Here, I sort (ascending) from right to left
+        i.e after 1 iteration, the larges element bubbles up 
+        at end of array
+        */
 public class BubbleSort{
     public static void main(String [] args){
         //an array to sort
@@ -11,10 +16,6 @@ public class BubbleSort{
         }
     }
     private static void bubbleSort(int[]a){
-        /*we sort from right to left
-        i.e after 1 iteration, the larges element bubbles up 
-        at end of array
-        */
         int sortedIndex=a.length-1;
         while(sortedIndex>0){
             for(int i=0;i<sortedIndex;i++){
