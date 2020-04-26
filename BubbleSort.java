@@ -1,7 +1,7 @@
         /*
         Here, I sort (ascending) from right to left
         i.e after 1 iteration, the larges element bubbles up 
-        at end of array
+        at end of array !!
         */
 public class BubbleSort{
     public static void main(String [] args){
